@@ -1,0 +1,107 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+       background-color: blue;
+    }
+   
+    .card{
+   
+       position: absolute;
+       top: 10%;
+       width: 90%;
+       height: auto;
+       left: 5%;
+       border-radius: 5%;
+   
+    }
+   
+    #qr{
+       width: 90%;
+       position: relative;
+       left: 5%;
+       border-radius: 5%;;
+       top: 9px;
+    }
+   
+    #heading{
+       font-size: 1.5em;
+       text-align: center;
+       width: 90%;
+       left: 5%;
+       position: relative;
+       padding-top: 10%;
+   
+    }
+   
+    #info{
+       text-align: center;
+       padding-top: 10%;
+       width: 80%;
+       position: relative;
+       left: 10%;
+    }
+   
+   
+   
+   
+   
+   
+   
+   
+   }
+   
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+   @media only screen and (min-width: 600px) {
+   }
+   
+   /* Medium devices (landscape tablets, 768px and up) */
+   @media only screen and (min-width: 768px) {}
+   
+   /* Large devices (laptops/desktops, 992px and up) */
+   @media only screen and (min-width: 992px) {
+       body{
+           background-color: lightblue ;
+       }
+       .card{
+   
+           position: absolute;
+           top: 10%;
+           width: 30%;
+           height: auto;
+           left: 35%;
+           border-radius: 5%;
+       
+        }
+       
+        #qr{
+           width: 90%;
+           position: relative;
+           left: 5%;
+           border-radius: 5%;;
+           top: 9px;
+        }
+       
+        #heading{
+           font-size: 1.5em;
+           text-align: center;
+           width: 90%;
+           left: 5%;
+           position: relative;
+           padding-top: 10%;
+       
+        }
+       
+        #info{
+           text-align: center;
+           padding-top: 10px;
+           width: 80%;
+           position: relative;
+           left: 10%;
+        }
+       
+   
+   
+   }
+   
+   /* Extra large devices (large laptops and desktops, 1200px and up) */
+   @media only screen and (min-width: 1200px) {}
